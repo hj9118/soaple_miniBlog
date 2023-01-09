@@ -14,8 +14,8 @@ const Wrapper = styled.div`
   }
 `;
 
-function CommentListItem(props) {
-  const { comment } = props;
+function CommentList(props) {
+  const { comments } = props;
 
   return (
     <Wrapper>

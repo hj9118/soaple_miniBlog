@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   }
 `;
 
-function PostListItem(props) {
+function PostList(props) {
   const { posts, onClickItem } = props;
 
   return (
@@ -26,7 +26,7 @@ function PostListItem(props) {
             key={post.id}
             post={post}
             onClick={() => {
-              onClick(post);
+              onClickItem(post);
             }}
           />
         );
